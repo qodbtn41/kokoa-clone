@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        border: 2px dotted royalblue;
+      }
+      div {
+        /* display: inline;
+        background-color: tomato; */
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+        border: 2px solid black;
+      }
+      header {
+        margin: 5%;
+        padding: 5%;
+        border: 5px aqua solid;
+        background-color: blueviolet;
+        height: 50px;
+        width: 500px;
+      }
+      html {
+        background-color: bisque;
+      }
+      body {
+        margin: 20px;
+        background-color: goldenrod;
+      }
+      #first {
+        background-color: greenyellow;
+      }
+      #second {
+        background-color: saddlebrown;
+      }
+      #third {
+        background-color: wheat;
+      }
+      #fourth {
+        background-color: lightcoral;
+      }
+      span {
+        margin: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+      <span>마진 패딩 테스트 </span>
+    <span>인라인은 좌우만 마진 패딩이 먹는다</span>
+    <span>상하 마진은 아예 안먹고</span>
+    <span>상하 패딩은 먹긴하는데 글자의 위치는 그대로에서 영역만 밀어내는것으로 보인다.</span>
+    <header>main의 상단과 Collapsing Margine이 발생했다.</header>
+    <div>test</div>
+    <header>Block의 특징 margin, padding, border</header>
+
+    <p>마진은 Border 밖의 공간</p>
+    <p>패딩은 Border 안의 공간</p>
+    <span>마진 패딩 테스트 </span>
+
+    <h3>Collapsing margines</h3>
+    <p>
+      왜 div의 마진이 body도 같이 밀려날까? 위아래 마진에서 발생한다. Border가
+      만나면 발생한다. 두 Box의 margine은 하나가 된다.
+    </p>
+
+    <div id="first">
+      <div id="second">
+        <div id="third">
+          <div id="fourth"></div>
+        </div>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>

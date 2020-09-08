@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 50px;
+        min-height: 50px;
+        background-color: slateblue;
+      }
+      div.inline {
+        display: inline-block;
+        background-color: teal;
+      }
+
+      div.flex {
+        width: 300px;
+        height: 100px;
+        margin-bottom: 5px;
+        display: flex;
+        background-color: bisque;
+      }
+      .center {
+        justify-content: center;
+      }
+      .even {
+        justify-content: space-evenly;
+      }
+      .around {
+        justify-content: space-around;
+      }
+      .between {
+        justify-content: space-between;
+      }
+      .align-center {
+        align-items: center;
+      }
+      .stretch {
+        align-items: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>인라인 블록은 쉣이다</h1>
+    <ul>
+      <li>기본적인 간격이 있따.</li>
+      <li>정해진 형식이 없다.</li>
+      <li>인라인 블록은 쓰지 마라!</li>
+      <li>화면의 크기에 따라서 공간을 Responsive하게 사용하는</li>
+      <li>FLEX가 있다</li>
+    </ul>
+    <p>인라인블록</p>
+    <div class="inline"></div>
+    <div class="inline"></div>
+    <div class="inline"></div>
+
+    <h1>플렉스 쓸때 주의점</h1>
+    <ul>
+      <li>플렉스 할 대상이 아니라 그 부모에 플렉스 속성을 준다</li>
+      <li>대상(자식)에게는 플렉스 관련 속성을 주지 않는다.</li>
+      <li>
+        justify-content, align-items: 간격 조절을 속성에 따라서 알아서 해준다.
+      </li>
+      <li>justify-content는 주축(x축)에 적용되는 속성</li>
+      <li>align-items는 교차축(y축)에 적용되는 값이다.</li>
+      <li>align-items는 기본적으로 stretch로 보인다.</li>
+    </ul>
+    <p>플렉스</p>
+    <div class="flex center align-center">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <div class="flex around stretch">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <div class="flex even">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <div class="flex between">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+
+    <h1>flex-direction</h1>
+    <ul>
+      <li>flex-direction은 주축을 변경하는것</li>
+      <li>기본적으로는 row라서 가로로 흘러간다.</li>
+      <li>column값을 주면? 세로로 흐른다.</li>
+      <li>reverse도 있다. column-reverse, row-reverse</li>
+    </ul>
+
+    <h1>flex-wrap</h1>
+    <ul>
+        <li>공간이 넘칠때 어떻게 동작할것인가?</li>
+        <li>flexbox는 width를 초기 사이즈로 생각하고 지맘대로 바꾼다.</li>
+        <li>flex-wrap : wrap 하면 width는 고정이고 넘치면 흘러내려가도록 한다.</li>
+        <li>wrap-reverse도 있다. 잘쓰지는 않는데 필요하면 사용</li>
+    </ul>
+  </body>
+</html>

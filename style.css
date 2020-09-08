@@ -1,0 +1,12 @@
+p {
+  size: 50px;
+}
+
+.bluetitle {
+  color: blue;
+  font-size: 50px;
+}
+
+#redtitle {
+  color: red;
+}
