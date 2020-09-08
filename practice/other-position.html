@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        background-color: aqua;
+        width: 200px;
+        height: 200px;
+      }
+      .relative {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        position: relative;
+        left: 10px;
+        top: 10px;
+      }
+      .absolute {
+        position: absolute;
+        background-color: palegreen;
+        width: 50px;
+        height: 50px;
+        top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>position:static은 default 값이다.</h2>
+    <h2>
+      position:relative는 처음 위치한 곳을 기준으로 top, bottom, left, right
+    </h2>
+    <div><div class="relative">left:10 & &nbsp;top 10</div></div>
+    <h2>position:absolute</h2>
+    <p>
+      가장 가까운 relative 부모를 기준으로 top, bottom, left, right body 태그가
+      relative이므로 body를 기준으로 하는것같지만? 부모가 relative이기만 하면
+      된다.
+    </p>
+
+    <div>
+      <div class="absolute">top:0</div>
+    </div>
+    <div class="relative">
+      <div class="absolute">top:0</div>
+    </div>
+
+    <h1>할 일 : 앞 뒤 태그 같이 수정해주는 단축키 찾기</h1>
+  </body>
+</html>
