@@ -1,11 +1,70 @@
-<h1>HTML의 목적은 이게 무엇인지 브라우저에게 말하는 것이다</h1>
-<div>
-  <food>고구마</food>
-  <!-- <a u></a> -->
-</div>
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <!-- <link
+      rel="shortct icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.png"
+    /> -->
+    <link
+      rel="shortcut icon"
+      href="https://www.youtube.com/s/desktop/ebcf1b0f/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta
+      name="description"
+      content="구글에서 검색했을떼 사이트의 설명으로 나오는 부분"
+    />
 
-<h2>href : HTTP Reference, Hyperlink Reference</h2>
-<h3>target : 기본값은 _self, _blank -> 새창</h3>
-<a href="https://www.google.com" target="_blank">go to google.com</a>
-<h2>src : source 이미지에만 있는 Attributes</h2>
-<img src="./AABOGpV.jpg" />
+    <meta name="og:title" content="카카오톡에서 뜨는 URL 카드박스의 타이틀" />
+    <meta
+      name="og:image"
+      content="https://www.youtube.com/s/desktop/ebcf1b0f/img/favicon.ico"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML의 목적은 이게 무엇인지 브라우저에게 말하는 것이다</h1>
+    </header>
+    <main>
+      <div>
+        <span>고구마</span>
+        <!-- <a u></a> -->
+      </div>
+
+      <h2>href : HTTP Reference, Hyperlink Reference</h2>
+      <h3>target : 기본값은 _self, _blank -> 새창</h3>
+      <a href="https://www.google.com" target="_blank">go to google.com</a>
+      <h2>src : source 이미지에만 있는 Attributes</h2>
+      <img src="./AABOGpV.jpg" />
+    </main>
+    <footer>
+      <form action="">
+        <label for="backcolor">Back Color</label>
+        <input type="color" name="" id="backcolor" />
+        <div>
+          <label for="Date">Date</label>
+          <input type="date" name="" id="Date" />
+          <label for="Date Time">Date Time</label>
+          <input type="datetime" name="" id="Date Time" />
+        </div>
+        <label for="email">E-mail</label>
+        <input type="email" name="" id="email" />
+        <label for="file">File</label>
+        <input type="file" name="" id="file" />
+        <label for="week">Week</label>
+        <input type="week" name="" id="week" Week />
+        <label for="radiobutton">radio button</label>
+        <input type="radio" name="radio1" id="radiobutton" />
+        <input type="radio" name="radio2" id="radiobutton" />
+        <input type="radio" name="radio3" id="radiobutton" />
+        <input type="radio" name="radio4" id="radiobutton" />
+        <input type="button" value="버튼" />
+      </form>
+    </footer>
+  </body>
+</html>
