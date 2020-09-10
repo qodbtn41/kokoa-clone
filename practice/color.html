@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 모든 document의 뿌리가 된다 */
+      :root {
+        --main-color: #fcce00;
+        --defalut-border: 1px solid var(--main-color);
+      }
+      p {
+        color: var(--main-color);
+        border: var(--defalut-border);
+      }
+      a {
+        color: var(--main-color);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>컬러 시스템</h1>
+    <ul>
+      <li>RGB : rgb(252, 206, 0);</li>
+      <li>RGBA : rgba(252, 206, 0, 50);</li>
+      <li>hex : #FFFFFF(white) #fcce00</li>
+    </ul>
+
+    <h1>변수(CSS Custom Properties)</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque,
+      iste? Cum repudiandae officia autem dolorem reiciendis veritatis
+      recusandae provident minus dolore animi architecto placeat quibusdam rem,
+      quidem ut unde! Totam!
+    </p>
+    <a href="">https://www.naver.com</a>
+  </body>
+</html>

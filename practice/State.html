@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button:hover {
+        background-color: teal;
+      }
+      button:active {
+        background-color: tomato;
+      }
+      input:focus {
+        background-color: blueviolet;
+      }
+      a:visited {
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>State</h1>
+    <ul>
+      <li>:active - 클릭된 상태</li>
+      <li>:hover - 마우스가 올라가있는 상태</li>
+      <li>:focus - input에 커서가 가있는 상태.</li>
+      <li>:visited - a 태그에만 적용</li>
+      <li>:focus-within - 자식이 포커스 된 경우</li>
+    </ul>
+
+    <form action="">
+      <button>버튼</button>
+      <input type="text" placeholder="이름" />
+      <input type="text" placeholder="번호" />
+    </form>
+    <a href="https://www.naver.com">네이버</a>
+  </body>
+
+  <h2>부모의 상태에 따른 자식의 스타일 변경</h2>
+  <p>"부모:hover 자식" - 부모가 hover된 자식을 선택하는 Selector</p>
+  <h2>자식의 상태에 따른 부모의 스타일 변경</h2>
+  <p>focus-within을 사용한다.</p>
+  <h2>부모와 자식의 상태에 따라서 스타일 변경</h2>
+  <p>"부모:hover input:focus" - 부모가 hover된 자식 input 중 focus된 경우</p>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      span {
+        color: tomato;
+        background-color: yellowgreen;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p span {
+        color: teal;
+        text-decoration: none;
+      }
+      div span {
+        text-decoration: underline;
+      }
+      div > span {
+        text-decoration: overline;
+      }
+      /* p 다음에 있는 span 들 */
+      p ~ span {
+      }
+      /* p 바로 뒤에 있는 span */
+      p + span {
+        text-emphasis: unset;
+      }
+
+      input:required {
+        border-color: tomato;
+      }
+
+      input[type="password"] {
+      }
+      input[placeholder="firstname"] {
+      }
+      input[placeholder~="name"] {
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Combinators</h1>
+
+    <div>
+      <span>hello</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed facere
+        repellendus perspiciatis soluta eum ipsa est neque ducimus quo,
+        excepturi recusandae hic mollitia incidunt minus similique ea nam
+        molestiae. <span>inside</span>
+      </p>
+    </div>
+
+    <h1>form의 sudo selectors</h1>
+    <form action="">
+      <input type="text" placeholder="username" />
+      <input type="text" required placeholder="password" />
+    </form>
+
+    <h1>Attribute Selectors</h1>
+    <a href="https://developer.mozilla.org/ko/docs/Web/CSS/Attribute_selectors"
+      >특성 선택자는 주어진 속성의 존재 여부나 값에 따라 요소를 선택합니다.</a
+    >
+  </body>
+</html>
