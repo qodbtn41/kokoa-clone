@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a#transition {
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 20px;
+        /* transition: 1s; */
+        /* transition-property: background-color; */
+        /* transition-delay: 1s; */
+        transition-duration: 2s;
+        /* transition-timing-function: ease-in-out; */
+        transition-timing-function: cubic-bezier(0.190, 1.000, 0.220, 1.000);
+      }
+      a:hover#transition {
+        border-radius: 30px;
+        font-size: 50px;
+        color: tomato;
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>transition</h1>
+    <ul>
+      <li>어떤상태에서 다른 상태로의 변화를 애니메이션으로 만든다.</li>
+      <li>transition은 상태쪽(:hover)이 아니라 원본쪽에 있어야 한다.</li>
+      <li>transition-property - 적용할 속성. all 하면 모든 속성</li>
+      <li>transition-delay - 초기 시작 딜레이</li>
+      <li>transition-duration - 변하는데 걸리는 시간</li>
+      <li>
+        transition-timing-function - 변하는 속도의 밀당<br /><a
+          href="https://matthewlein.com/tools/ceaser" target="_blank"
+          >css easing function</a
+        >
+      </li>
+    </ul>
+
+    <a id="transition" href="#">Go Home</a>
+  </body>
+</html>

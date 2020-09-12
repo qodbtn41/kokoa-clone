@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img{
+          border: 5px solid black;
+          border-radius: 50%;
+          width : 500px;
+          height: 500px;
+          transition-duration: 2s;
+      }
+      img:hover{
+        transform: rotateY(360deg) scale(0.5);
+
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="../AABOGpV.jpg" alt="" />
+    <h1>transform 속성 목록</h1>
+    <ul>
+      <li>rotate : 회전</li>
+      <ul>
+        <li>rotate()</li>
+        <li>rotate3d()</li>
+        <li>rotateX()</li>
+        <li>rotateY()</li>
+        <li>rotateZ()</li>
+      </ul>
+      <li>scale : 확대, 늘리기</li>
+      <ul>
+        <li>scale()</li>
+        <li>scale3d()</li>
+        <li>scaleX()</li>
+        <li>scaleY()</li>
+        <li>scaleZ()</li>
+      </ul>
+      <li>translate : 이동</li>
+      <ul>
+        <li>translate()</li>
+        <li>translate3d()</li>
+        <li>translateX()</li>
+        <li>translateY()</li>
+        <li>translateZ()</li>
+      </ul>
+      <li>skew :</li>
+      <ul>
+        <li>skew()</li>
+        <li>skewX()</li>
+        <li>skewY()</li>
+      </ul>
+      <li>matrix :</li>
+      <ul>
+        <li>matrix()</li>
+        <li>matrix3d()</li>
+      </ul>
+      <li>perspective()</li>
+    </ul>
+
+    <h2>정리</h2>
+    <ul>
+      <li>다른 요소에 영향을 끼치지 않는다.</li>
+      <li>레이아웃이 변하지 않는다.</li>
+      <li>다른곳으로 갔다고 생각하지않는다.</li>
+      <li>
+        transition을 할떄는 항상 state CSS 쪽이 아니라 element쪽에 작성하자.
+      </li>
+    </ul>
+  </body>
+</html>
