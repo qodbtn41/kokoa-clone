@@ -1,7 +1,8 @@
-
 .status-bar {
   display: flex;
   padding: 5px 3px;
+  font-size: 12px;
+  font-weight: 500;
 }
 .status-bar__column {
   flex: 1;

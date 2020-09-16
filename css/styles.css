@@ -1,9 +1,6 @@
 @import "reset.css";
 @import "status-bar.css";
 
-:root {
-  --placeholder-color: #c3c3c3;
-}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
@@ -14,19 +11,47 @@ body {
   align-items: center;
   text-align: center;
 }
-.welcome-header__title{
-  font-size: x-large;
-  padding-top: 90px;
-  padding-bottom: 40px;
+.welcome-header__title {
+  font-size: 20px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 .welcome-header__text {
-  color: var(--placeholder-color);
-  font-size: medium;
-  padding-bottom: 70px;
+  color: #8b8b8b;
+  font-size: 14px;
+  padding-bottom: 50px;
 }
 
-
-#login-form{
+#login-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+/*이래서 버튼말고 input을 썼구나 */
+#login-form input {
+  width: 88%;
+  height: 40px;
+  border: none;
+  margin-bottom: 5px;
+}
+#login-form input[type="text"] {
+  color: #bdbdbd;
+  border-bottom: 0.5px #bdbdbd solid;
+}
+#login-form input[type="password"] {
+  color: #bdbdbd;
+  border-bottom: 0.5px #bdbdbd solid;
+  margin-bottom: 20px;
+}
+#login-form input[type="submit"] {
+  background-color: #f6f6f6;
+}
+#login-form input[type="button"] {
+  background-color: #f6f6f6;
+}
+#login-form a {
+  color: #363636;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 500;
 }
