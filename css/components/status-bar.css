@@ -4,7 +4,11 @@
   font-size: 12px;
   font-weight: 500;
   position: fixed;
+  top: 0px;
   width: 100%;
+  height: 20px;
+  box-sizing: border-box;
+  background-color: white;
 }
 .status-bar__column {
   flex: 1;
