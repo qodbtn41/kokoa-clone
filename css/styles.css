@@ -59,3 +59,9 @@ body {
   font-size: smaller;
   font-weight: 600;
 }
+.nav__notification_small{
+  width: 5px;
+  height:5px;
+  left: calc(50% + 10px);
+  top: 25%;
+}
