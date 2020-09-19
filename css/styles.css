@@ -32,25 +32,27 @@ body {
   width: 88%;
   height: 40px;
   border: none;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input[type="text"] {
-  color: #bdbdbd;
-  border-bottom: 0.5px #bdbdbd solid;
-}
+#login-form input[type="text"],
 #login-form input[type="password"] {
-  color: #bdbdbd;
   border-bottom: 0.5px #bdbdbd solid;
-  margin-bottom: 20px;
+  color: #bdbdbd;
 }
-#login-form input[type="submit"] {
-  background-color: #f6f6f6;
-}
+
+#login-form input[type="submit"],
 #login-form input[type="button"] {
   background-color: #f6f6f6;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+#login-form input[type="password"] {
+  margin-bottom: 20px;
+}
+
 #login-form a {
   color: #363636;
   text-decoration: none;
