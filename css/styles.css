@@ -13,8 +13,8 @@ body {
 }
 
 .nav {
-  border-top:1px solid rgba(121, 121, 121, 0.3);
-  position: absolute;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+  position: fixed;
   bottom: 0px;
   width: 100%;
 }
@@ -27,6 +27,18 @@ body {
   height: 50px;
   background-color: #f9f9fa;
 }
-.nav_a {
+.nav__btn {
+width:100%;
+height:100%;
+}
+.nav__a {
   color: #2f363e;
+  display: block;
+  width:100%;
+  height:100%;
+  line-height: 100%;
+  text-align: center;
+}
+.nav__a i{
+  line-height: 50px;
 }
