@@ -3,7 +3,7 @@
 
 /* Components */
 @import "components/status-bar.css";
-
+@import "components/nav-bar.css";
 /* Screens */
 @import "screens/login.css";
 
@@ -11,57 +11,4 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
   padding-top: 20px;
-}
-
-.nav {
-  border-top: 1px solid rgba(121, 121, 121, 0.3);
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-}
-.nav__list {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  height: 50px;
-  background-color: #f9f9fa;
-}
-.nav__btn {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-.nav__a {
-  color: #2f363e;
-  display: block;
-  width: 100%;
-  height: 100%;
-  line-height: 100%;
-  text-align: center;
-}
-.nav__a i {
-  line-height: 50px;
-}
-.nav__notification{
-  position: absolute;
-  left: calc(50% + 4px);
-  top: 15%;
-  background-color: tomato;
-  border-radius: 50%;
-  width: 20px;
-  height:20px;
-  display: block;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-  font-size: smaller;
-  font-weight: 600;
-}
-.nav__notification_small{
-  width: 5px;
-  height:5px;
-  left: calc(50% + 10px);
-  top: 25%;
 }
