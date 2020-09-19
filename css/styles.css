@@ -29,6 +29,7 @@ body {
   background-color: #f9f9fa;
 }
 .nav__btn {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -42,4 +43,19 @@ body {
 }
 .nav__a i {
   line-height: 50px;
+}
+.nav__notification{
+  position: absolute;
+  left: calc(50% + 4px);
+  top: 15%;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 20px;
+  height:20px;
+  display: block;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  font-size: smaller;
+  font-weight: 600;
 }
