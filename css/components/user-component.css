@@ -12,16 +12,12 @@
 .user-component__column:last-child {
   font-weight: 600;
   color: #cbcbcb;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.user-component__notification{
-  border-radius: 50%;
-  background-color: tomato;
-  width: 20px;
-  height:20px;
-  text-align: center;
-  color: white;
-  line-height: 20px;
-  /* display: block; */
+.user-component__time {
+  display: block;
+  margin-bottom: 5px;
 }
 .user-component__photo {
   border-radius: 40%;

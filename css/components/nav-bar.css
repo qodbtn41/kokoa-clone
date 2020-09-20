@@ -33,20 +33,8 @@
   position: absolute;
   left: calc(50% + 4px);
   top: 15%;
-  background-color: tomato;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  display: block;
-  text-align: center;
-  line-height: 20px;
-  color: white;
-  font-size: smaller;
-  font-weight: 600;
 }
 .nav__notification_small {
-  width: 5px;
-  height: 5px;
   left: calc(50% + 10px);
   top: 25%;
 }
