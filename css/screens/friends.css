@@ -14,12 +14,12 @@
 }
 #friends-display-link .fa-info-circle,
 #friends-display-link .fa-chevron-right {
-  color: #d5d5d5;
+  color: var(--gray-lighter);
   margin: 0px 5px;
 }
 
 .friends-screen__channel {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid var(--gray-lighter);
   padding: 10px 0px;
 }
 .friends-screen__channel__header {

@@ -17,8 +17,8 @@
 
 .badge-white {
   background-color: white;
-  color: black;
-  border: 2px solid black;
+  color: var(--black);
+  border: 2px solid var(--black);
   font-size: 16px;
   display: block;
   width: 28px;
@@ -29,8 +29,8 @@
 
 .recommended-friends {
   border-top: var(--horizontal-border);
-  color: #7f7f7f;
-  padding-top: 10px;
+  color: var(--gray);
+  padding-top: 15px;
   font-weight: 600;
 }
 .recommended-friends span {
@@ -38,4 +38,15 @@
   display: block;
   text-align: center;
   font-size: 18px;
+}
+.open-chat__header {
+  border-top: var(--horizontal-border);
+  color: var(--gray);
+  padding-top: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.open-chat__header span {
+  color: var(--gray-light);
 }

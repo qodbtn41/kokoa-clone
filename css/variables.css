@@ -1,5 +1,9 @@
 :root {
   --yellow: #fae100;
   --horizontal-padding: 25px;
-  --horizontal-border: 1px solid rgba(0, 0, 0, 0.1);
+  --horizontal-border: 1px solid var(--gray-lighter);
+  --black:#2f363e;
+  --gray: #7f7f7f;
+  --gray-light: #bdbdbd;
+  --gray-lighter: #d5d5d5;
 }
