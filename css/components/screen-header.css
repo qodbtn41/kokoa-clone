@@ -13,9 +13,15 @@
 }
 .header__btn {
   margin-left: 5px;
+  position: relative;
 }
 
 .header__a {
   display: block;
   padding: 10px 10px;
+}
+.header__notification{
+  position: absolute;
+  top: 5%;
+  left:calc(50% + 10px);
 }
