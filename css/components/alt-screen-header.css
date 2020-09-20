@@ -18,7 +18,13 @@ h1.alt-header__column{
 }
 .alt-header__column:first-child {
   justify-content: flex-start;
+  flex: 0.5;
 }
 .alt-header__column:last-child {
   justify-content: flex-end;
+  flex: 0.5;
+}
+
+.alt-header__column:last-child a{
+  margin-left: 15px;
 }
