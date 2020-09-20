@@ -4,6 +4,7 @@
   width: 100%;
   padding: 10px 0px;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 .user-component__column {
   display: flex;
