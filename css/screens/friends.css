@@ -17,9 +17,6 @@
   margin: 0px 5px;
 }
 
-.friends-screen {
-  padding: 0px var(--horizontal-padding);
-}
 .friends-screen__channel {
   border-top: 1px solid #d5d5d5;
   padding: 10px 0px;

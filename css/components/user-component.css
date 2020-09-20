@@ -13,13 +13,23 @@
   font-weight: 600;
   color: #cbcbcb;
 }
+.user-component__notification{
+  border-radius: 50%;
+  background-color: tomato;
+  width: 20px;
+  height:20px;
+  text-align: center;
+  color: white;
+  line-height: 20px;
+  /* display: block; */
+}
 .user-component__photo {
   border-radius: 40%;
   width: 70px;
   height: 70px;
   margin-right: 15px;
 }
-.user-component__photo__bg {
+.user-component__photo__lg {
   width: 80px;
   height: 80px;
 }

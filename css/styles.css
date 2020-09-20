@@ -17,3 +17,6 @@ body {
   padding-top: 20px; /*상단 status-bar 제외*/
   color: #2f363e; /*기본색상설정*/
 }
+.main-screen {
+  padding: 0px var(--horizontal-padding);
+}
