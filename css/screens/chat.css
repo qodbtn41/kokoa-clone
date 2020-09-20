@@ -1,6 +1,29 @@
-.chat-body {
+.body-chat {
   background-color: #abc1d1;
+  padding-top: 82px; /*상단 status-bar 제외*/
 }
-.chat-body .status-bar {
+.body-chat .status-bar {
+  background-color: #abc1d1;
+  z-index: 1;
+}
+.main-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 1000vh;
+}
+.chat__timestamp {
+  /* flex: 1; */
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.body-chat .alt-header{
+  position: fixed;
+  top: 0px;
   background-color: #abc1d1;
 }
