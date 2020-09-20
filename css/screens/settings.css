@@ -1,7 +1,13 @@
-.settings__header{
+.settings-list {
   display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-  align-items: center;
-  
+  flex-direction: column;
+}
+.settings-setting {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.settings-setting i {
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
 }
