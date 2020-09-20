@@ -1,0 +1,10 @@
+.badge-exclamation {
+  background-color: white;
+  border: 1px solid tomato;
+  color: tomato;
+  font-weight: 600;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+}

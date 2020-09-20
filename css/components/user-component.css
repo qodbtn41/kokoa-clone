@@ -42,6 +42,7 @@
   font-weight: 400;
 }
 .user-component__subtitle {
+  display: flex;
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
 }
