@@ -24,3 +24,20 @@
   line-height: 28px;
   text-align: center;
 }
+
+.recommended-friends {
+  border-top: var(--horizontal-border);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  position: relative;
+  color: #7f7f7f;
+  margin-top: 25px;
+}
+.recommended-friends__title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
