@@ -5,9 +5,15 @@
 .settings-setting {
   padding: 20px 0px;
   font-size: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
 }
 .settings-setting i {
   width: 20px;
   text-align: center;
   margin-right: 10px;
+}
+.settings-setting-column:last-child{
+  opacity: 0.6;
 }
