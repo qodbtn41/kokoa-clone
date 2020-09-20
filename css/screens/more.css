@@ -1,3 +1,12 @@
+.more-screen .icon-row {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.more-screen .icon-row__icon{
+  min-width: 25%;
+  box-sizing: border-box;
+  margin-top: 35px;
+}
 .badge-exclamation {
   background-color: white;
   border: 1px solid tomato;
@@ -7,4 +16,14 @@
   width: 16px;
   height: 16px;
   line-height: 16px;
+}
+.suggestions .icon-row {
+  justify-content: flex-start;
+}
+.suggestions__title {
+  border-top: var(--horizontal-border);
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 15px;
+  margin-bottom: -10px;
 }
