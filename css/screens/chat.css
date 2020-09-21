@@ -105,13 +105,14 @@
   background-color: var(--yellow);
   border: none;
   margin-left: 10px;
+  margin-right: 1px;
 }
 .reply__column:last-child {
   background-color: #f8f8f8;
   border-radius: 30px;
   margin: 5px;
   flex: 1;
-  border: 1px solid #ebebec;
+  border: 1.3px solid #ebebec;
 }
 .reply__column:last-child input {
   flex: 1;
