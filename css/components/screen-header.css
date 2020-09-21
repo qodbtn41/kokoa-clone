@@ -20,8 +20,21 @@
   display: block;
   padding: 10px 10px;
 }
-.header__notification{
+.header__notification {
   position: absolute;
   top: 5%;
-  left:calc(50% + 10px);
+  left: calc(50% + 10px);
+}
+
+@keyframes rotate-cog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.header__icons .fa-cog:hover {
+  animation: rotate-cog 3s linear infinite;
 }
